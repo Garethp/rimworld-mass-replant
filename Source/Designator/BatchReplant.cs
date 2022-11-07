@@ -17,7 +17,6 @@ namespace Replace_Stuff_Compatibility.Designator
 		{
 			var minifiedTree = DefDatabase<ThingDef>.GetNamed("Plant_TreePoplar");
 			
-			WorkGiver_Replant
 			if (!c.InBounds(this.Map))
 				return (AcceptanceReport) false;
 			
